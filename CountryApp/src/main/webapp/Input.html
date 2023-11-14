@@ -1,0 +1,25 @@
+
+<h1 style=color:red;text-align:center>HTML to Servlet Communication using JS</h1>
+<form name="frm" action="countryurl" method="GET">
+   Select a Country to get Its Capital:<select name="country" onchange="send()">
+                                <option value="">---select---</option>
+                                <option value="0">India</option>
+                                <option value="1">USA</option>
+                                <option value="2">United Kingdom</option>
+                                <option value="3">Canada</option>
+                                <option value="4">Sri Lanka</option>
+                                <option value="5">Germany</option>
+                                <option value="6">Japan</option>
+                                <option value="7">Thailand</option>
+                                <option value="8">Australia</option>
+                                <option value="9">West Indies</option>
+                                <option value="10">Brazil</option>
+                                </select> 
+   </form>                             
+                                
+               <script language="JavaScript">
+                   function send(){
+                	   frm.submit();
+                   }
+               </script>
+                   
